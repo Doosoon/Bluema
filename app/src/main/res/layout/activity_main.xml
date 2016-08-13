@@ -10,7 +10,13 @@
     tools:context="com.doosoon.home.bluema.MainActivity">
 
     <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="City List" />
+    <ListView
+        android:id="@+id/cityListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"></ListView>
 </RelativeLayout>
