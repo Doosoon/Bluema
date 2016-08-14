@@ -3,31 +3,39 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/color"
+        android:layout_width="0dp"
+        android:layout_height = "match_parent"
+        android:layout_weight="1"/>
     <TextView
         android:id="@+id/cityName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="2"
+        android:layout_weight="3"
+        android:paddingLeft="4dp"
         android:textStyle="bold"
-        android:layout_gravity="fill_horizontal"/>
+        android:textSize="18dp"
+        android:layout_gravity="center_vertical"/>
     <TextView
         android:id="@+id/cityPrice"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_gravity="fill_horizontal"
+        android:layout_weight="2"
         android:textStyle="bold"
+        android:layout_gravity="center_vertical"
         android:textAlignment="center"/>
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textAlignment="center"
-            android:text="호텔"/>
+            android:text="호텔"
+            android:textSize="16dp"/>
         <TextView
             android:id="@+id/hotelPrice"
             android:layout_width="match_parent"
@@ -37,13 +45,14 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textAlignment="center"
-            android:text="빌딩"/>
+            android:text="빌딩"
+            android:textSize="16dp"/>
         <TextView
             android:id="@+id/buildingPrice"
             android:layout_width="match_parent"
@@ -53,13 +62,14 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="2"
           android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textAlignment="center"
-            android:text="별장"/>
+            android:text="별장"
+            android:textSize="16dp"/>
         <TextView
             android:id="@+id/villaPrice"
             android:layout_width="match_parent"
